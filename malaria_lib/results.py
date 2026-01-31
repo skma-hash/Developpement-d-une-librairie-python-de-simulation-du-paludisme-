@@ -28,4 +28,6 @@ def exporter_resultats(resultats, nom_fichier, format="csv"):
         raise ValueError("Format non supporté. Utilisez 'csv' ou 'json'.")
 
 
-if __name__="main":
+if __name__="__main__":
+    exporter_resultats()
+
